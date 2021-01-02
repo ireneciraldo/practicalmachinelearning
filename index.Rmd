@@ -152,7 +152,7 @@ GBM.WLE
 
 ```{r}
 GBM.pred <- predict(GBM.WLE, newdata = cv)
-GBMConfMat <- confusionMatrix(GBM.pred, cv$classe)
+GBMConfMat <- 1confusionMatrix(GBM.pred, cv$classe)
 GBMConfMat
 ```
 
